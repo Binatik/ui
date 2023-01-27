@@ -9,7 +9,13 @@ enum Event {
 	MouseLeaveRating = 'mouseLeaveRating',
 }
 
-const stars = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }]
+const stars: Record<string, number>[] = [
+	{ id: 1 },
+	{ id: 2 },
+	{ id: 3 },
+	{ id: 4 },
+	{ id: 5 },
+]
 
 function RaitingStar({
 	view,
