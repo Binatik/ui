@@ -1,0 +1,31 @@
+.marker {
+	display: inline-block;
+	border-radius: 20px;
+	padding: 4px 10px;
+}
+
+.primary {
+	background-color: var(--red);
+	color: var(--white);
+}
+
+.secondary {
+	background-color: var(--gray);
+	color: var(--white);
+}
+
+.surface {
+	background-color: var(--green-light);
+	font-weight: 700;
+	color: #1dc37e;
+}
+
+.small {
+	font-size: 12px;
+	line-height: 1;
+}
+
+.medium {
+	font-size: 14px;
+	line-height: 1;
+}

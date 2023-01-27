@@ -1,0 +1,12 @@
+.star {
+	pointer-events: none;
+	transition: fill 0.2s;
+}
+
+.primary {
+	fill: var(--primary);
+}
+
+.secondary {
+	fill: var(--gray-light);
+}

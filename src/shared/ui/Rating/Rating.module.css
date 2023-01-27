@@ -1,0 +1,18 @@
+.star {
+	cursor: pointer;
+}
+
+.star svg {
+	pointer-events: none;
+	transition: fill 0.2s;
+	fill: var(--gray-light);
+	margin-left: 5px;
+}
+
+.filled svg {
+	fill: var(--primary);
+}
+
+.blocked {
+	cursor: default;
+}

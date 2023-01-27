@@ -1,0 +1,20 @@
+.raiting {
+	cursor: pointer;
+	padding-right: 5px;
+}
+
+.raiting:last-child {
+	padding-right: 0;
+}
+
+.primary.filled svg {
+	fill: var(--primary);
+}
+
+.secondary.filled svg {
+	fill: var(--red);
+}
+
+.blocked {
+	cursor: default;
+}

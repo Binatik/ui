@@ -1,0 +1,14 @@
+.wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: auto 230px minmax(320px, 1200px) auto;
+}
+
+.header {
+	display: none;
+	grid-column: 1 / -1;
+}
+
+.sidebar {
+	grid-column: span 2 / span 3;
+}
